@@ -1,0 +1,205 @@
+14:07:10 vooblynat2.dll v2.2.5.71 loaded!
+14:07:10 CNatCommunication::Init successful!
+14:07:10 PID = 22056
+14:07:10 bDirectPlay = 1
+14:07:10 bBroadcast = 0
+14:07:10 bRemotePort = 0
+14:07:10 bForceBindLocal = 0
+14:07:10 bNoZeroBytesInIP = 0
+14:07:10 bNoConnectACKs = 0
+14:07:10 bIPXWrapper = 0
+14:07:10 GameShort = ROR
+14:07:10 NetworkDLL = 
+14:07:10 DirectPlayNATHelpCreate [failed #1] in dpnhupnp.dll
+14:07:10 DirectPlayNATHelpCreate [found] in dpnathlp.dll
+14:07:10 CNatCommunication::ThreadEntry IN
+14:07:10 NatRecvMessage - NAT_MSG_WELCOME
+14:07:10 NatRecvMessage - NAT_MSG_HOST_INFO - UDP Port = 57797, TCP Port = 59883, UID = 126268000, Local IP = 7.134.178.96
+14:07:10 NatReg
+14:07:10 NatRecvMessage - NAT_MSG_ADD_USER - 126267997 - 7.134.178.93 - 5DB28607
+14:07:12 bind(0.0.0.0:0,s=490)
+14:07:12 closesocket(0.0.0.0:57798)
+14:07:12 dpnhupnp.dll::DirectPlayNATHelpCreate
+14:07:12 bind(0.0.0.0:2300,s=764)
+14:07:12 closesocket(0.0.0.0:2300)
+14:07:12 bind(0.0.0.0:2300,s=764)
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 listen(0.0.0.0:2300)
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 bind(0.0.0.0:0,s=770)
+14:07:12 sendto   (peer=7.134.178.93:47624,len=52,uid=126267997,saveId=0,local=7.134.178.96:0,s=770)
+14:07:12 ...port is 2300
+14:07:12 ...overriding to 7.134.178.96
+14:07:12 closesocket(0.0.0.0:57799)
+14:07:12 listen(0.0.0.0:2300)
+14:07:12 bind(0.0.0.0:0,s=78c)
+14:07:12 getsockname(s=78c, 0.0.0.0:59884)->0
+14:07:12 closesocket(0.0.0.0:59884)
+14:07:12 bind(0.0.0.0:59884,s=78c)
+14:07:12 connect(7.134.178.93:47624)
+14:07:12 ...redirect connect, destport = 47624, uid = 126267997
+14:07:12 send(127.0.0.1:59884, len=52, saveId=0)
+14:07:12 ...port is 2300
+14:07:12 ...overriding to 7.134.178.96
+14:07:12 closesocket(127.0.0.1:59884)
+14:07:12 accept(connecting: 127.0.0.1:59885 hostport: 0.0.0.0:2300)
+14:07:12 ...NAT_MSG_INCOMING_CONNECT - uid = 126267997, valid = 1
+14:07:12 ...accept(7.134.178.93:59885) AFTER
+14:07:12 gethostname
+14:07:12 gethostbyname(Hoang)
+14:07:12 gethostbyname of localhost!
+14:07:12 ... address[0]=7.134.178.96
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 bind(0.0.0.0:0,s=828)
+14:07:12 getsockname(s=828, 0.0.0.0:59886)->0
+14:07:12 closesocket(0.0.0.0:59886)
+14:07:12 bind(0.0.0.0:59886,s=828)
+14:07:12 getsockname(s=828, 0.0.0.0:59886)->0
+14:07:12 connect(7.134.178.93:2300)
+14:07:12 ...redirect connect, destport = 2300, uid = 126267997
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 bind(0.0.0.0:2350,s=82c)
+14:07:12 getsockname(s=82c, 0.0.0.0:2350)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 getsockname(s=82c, 0.0.0.0:2350)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:12 getsockname(s=764, 0.0.0.0:2300)->0
+14:07:13 recvfrom (peer=7.134.178.93:57797,len=20,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:13 sendto   (peer=7.134.178.93:2350,len=48,uid=126267997,saveId=0,local=7.134.178.96:23552,s=82c)
+14:07:13 sendto   (peer=7.134.178.93:2350,len=20,uid=126267997,saveId=0,local=7.134.178.96:33280,s=82c)
+14:07:18 recvfrom (peer=7.134.178.93:57797,len=43,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:18 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:19 recvfrom (peer=7.134.178.93:57797,len=43,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:19 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:19 sendto   (peer=7.134.178.93:2350,len=20,uid=126267997,saveId=0,local=7.134.178.96:34033,s=82c)
+14:07:19 recvfrom (peer=7.134.178.93:57797,len=20,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:20 recvfrom (peer=7.134.178.93:57797,len=43,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:20 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:21 recvfrom (peer=7.134.178.93:57797,len=20,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:21 sendto   (peer=7.134.178.93:2350,len=20,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:23 sendto   (peer=7.134.178.93:2350,len=48,uid=126267997,saveId=0,local=7.134.178.96:28416,s=82c)
+14:07:23 recvfrom (peer=7.134.178.93:57797,len=50,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:23 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:65535,s=82c)
+14:07:27 sendto   (peer=7.134.178.93:2350,len=20,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:27 recvfrom (peer=7.134.178.93:57797,len=20,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:29 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:29 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:1792,s=82c)
+14:07:29 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:2064,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:30 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:30 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:30 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:28416,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:30 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:8296,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:30 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:30 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:30 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:4203,s=82c)
+14:07:30 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:31 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:31 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:31 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:31 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:31 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:31 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:31 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:31 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:31 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:31 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:31 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:31 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:256,s=82c)
+14:07:31 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:31 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:32 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:32 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:32 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:32 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:32 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:32 recvfrom (peer=7.134.178.93:57797,len=56,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:32 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:32 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:32 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:32 sendto   (peer=7.134.178.93:2350,len=56,uid=126267997,saveId=0,local=7.134.178.96:49254,s=82c)
+14:07:32 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:32 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:33 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:33 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:33 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:26980,s=82c)
+14:07:33 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:33 recvfrom (peer=7.134.178.93:57797,len=52,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:33 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:34 sendto   (peer=7.134.178.93:2350,len=48,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:34 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:34 sendto   (peer=7.134.178.93:2350,len=48,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:34 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:34 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:34 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:34 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:34 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:35 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:35 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:35 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:35 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:35 sendto   (peer=7.134.178.93:2350,len=48,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:35 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:35 recvfrom (peer=7.134.178.93:57797,len=52,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:35 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:35 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:35 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:36 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:36 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:36 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:36 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:36 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:36 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:36 sendto   (peer=7.134.178.93:2350,len=44,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:36 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:37 recvfrom (peer=7.134.178.93:57797,len=20,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:37 sendto   (peer=7.134.178.93:2350,len=20,uid=126267997,saveId=0,local=7.134.178.96:8430,s=82c)
+14:07:37 sendto   (peer=7.134.178.93:2350,len=20,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:37 recvfrom (peer=7.134.178.93:57797,len=20,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:37 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:37 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:37 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:37 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:38 recvfrom (peer=7.134.178.93:57797,len=48,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:38 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:38 recvfrom (peer=7.134.178.93:57797,len=48,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:38 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:38 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:38 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:38 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:246,s=82c)
+14:07:38 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:38 sendto   (peer=7.134.178.93:2350,len=44,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:38 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:38 recvfrom (peer=7.134.178.93:57797,len=48,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:38 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:39 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:39 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:39 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:39 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:39 recvfrom (peer=7.134.178.93:57797,len=61,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:39 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:39 recvfrom (peer=7.134.178.93:57797,len=36,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:39 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:39 recvfrom (peer=7.134.178.93:57797,len=48,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:39 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:39 sendto   (peer=7.134.178.93:2350,len=32,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:39 recvfrom (peer=7.134.178.93:57797,len=16,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:40 recvfrom (peer=7.134.178.93:57797,len=32,uid=126267997,saveId=0,local=7.134.178.96:2350,s=82c)
+14:07:40 sendto   (peer=7.134.178.93:2350,len=16,uid=126267997,saveId=0,local=7.134.178.96:0,s=82c)
+14:07:40 Stopping low priority log statements
+14:22:59 NatRecvMessage - NAT_MSG_REMOVE_USER - 126267997
+14:23:03 closesocket(127.0.0.1:59886)
+14:23:03 closesocket(127.0.0.1:2300)
+14:24:00 closesocket(0.0.0.0:2350)
+14:24:02 closesocket(0.0.0.0:2300)
